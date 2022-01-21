@@ -13,6 +13,8 @@ export function switchNetwork(chainId_) {
         chainName = 'Polygon'
     } else if (chainId_ == 56) {
         chainName = 'BSC'
+         } else if (chainId_ == 250) {
+        chainName = 'Fantom'
     }
     let rpcUrl;
     networkInfo.forEach(network => {
